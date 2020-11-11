@@ -1,0 +1,207 @@
+/* 
+*  these rules override some rules in bootstrap.min.css
+*  the old ones are commented to show the differnce
+*/
+
+body {
+  /* color: #333; */
+  /* background-color: #fff; */
+  color: #bbb;
+  background-color: #2b2b2b;
+}
+
+.navbar-default {
+  /* background-color: #f8f8f8; */
+  /* border-color: #e7e7e7; */
+  background-color: #383838;
+  border-color: #5f5636;
+}
+
+.navbar {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+.dropdown-menu {
+  /* background-color: #fff; */
+  /* border: 1px solid rgba(0,0,0,.15); */
+  /* box-shadow: 0 6px 12px rgba(0,0,0,.175); */
+  background-color: #2b2b2b;
+  border: 1px solid rgba(0,0,0,.32);
+  box-shadow: 0 6px 12px rgba(64, 63, 63, 0.58);
+}
+
+.dropdown-menu > li > a {
+  /* color: #333; */
+  color: #71bcb8;
+}
+
+.panel-default {
+  /* border-color: #ddd; */
+  border-color: #5f5636;
+}
+
+.panel {
+  /* background-color: #fff; */
+  /* box-shadow: 0 1px 1px rgba(0,0,0,.05); */
+  background-color: #383838;
+  box-shadow: 0px 0px 5px rgba(77, 77, 77, 0.82);
+}
+
+.panel-default > .panel-heading {
+  /* color: #333; */
+  /* background-color: #f5f5f5; */
+  /* border-color: #ddd; */
+  color: #78a8b2;
+  background-color: #222;
+  border-color: #5f5636;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  /* border-top: 1px solid #ddd; */
+  border-top: 1px solid #5f5636;
+}
+
+th {
+  color: #8cabb0;
+}
+
+a {
+  /* color: #337ab7; */
+  color: #4dbb8e;
+}
+
+a:focus, a:hover {
+  /* color: #23527c;*/
+  color: #13c450;
+}
+
+
+.navbar-default .navbar-brand {
+  /* color: #777; */
+  color: #e2bc78;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  /* color: #333; */
+  color: #8cbcb8;
+}
+
+.navbar-default .navbar-nav > li > a {
+  /* color: #777; */
+  color: #8cbcb8;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  /* color: #262626; */
+  /* background-color: #f5f5f5; */
+  color: #05292f;
+  background-color: #7b7b7b;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  /* color: #555; */
+  /* background-color: #e7e7e7; */
+  color: #98ccc8;
+  background-color: #2b2b2b;
+}
+
+.btn-default {
+  /* color: #333; */
+  /* background-color: #fff; */
+  /* border-color: #ccc; */
+  color: #fde6e3;
+  background-color: #c44a4ad1;
+  border-color: #a54545;
+}
+
+.btn-default:hover {
+    color: #fee;
+    background-color: #c11414;
+    border-color: #951111;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+  /* background-color: #f9f9f9; */
+  background-color: #2f2f2f;
+}
+
+.table-hover > tbody > tr:hover {
+  /* background-color: #f5f5f5; */
+  background-color: #222;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  /* color: #5e5e5e; */
+  color: #eaa936;
+  text-shadow: 0 0 2px #ecbf6f80;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  /* background-color: #ddd; */
+  background-color: #222;
+}
+
+.navbar-default .navbar-toggle {
+  /* border-color: #ddd; */
+  border-color: #717171;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  /* border-color: #e7e7e7; */
+  border-color: #5f5636;
+}
+
+.btn-info {
+  /* color: #fff; */
+  /* background-color: #5bc0de; */
+  /* border-color: #46b8da; */
+  color: #bff3ff;
+  background-color: #2d768c;
+  border-color: #3492ae;
+}
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+  /* color: #333; */
+  /* background-color: #e6e6e6; */
+  /* border-color: #adadad; */
+  color: #fff3f1;
+  background-color: #ec4949d1;
+  border-color: #ea2d2d;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+  /* color: #333; */
+  /* background-color: #d4d4d4; */
+  /* border-color: #8c8c8c; */
+  color: #fff3f1;
+  background-color: #d92929d1;
+  border-color: #a54545;
+}
+
+
+td:nth-child(4) {
+  color: #69b16f;
+}
+
+td:nth-child(10) {
+  color: #b16969;
+  font-weight: bold;
+  font-size: initial;
+}
+
+td:nth-child(5) {
+  color: #6999b1;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #333;
+    color: #25ce7e;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+    color: #50ae94;
+  }
+}
